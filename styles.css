@@ -1,0 +1,199 @@
+body {
+    margin : 0px
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header img{
+    height : 100px;
+    width: 100%
+
+}
+
+header{
+    display : flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 40px;
+    position : fixed;
+    width : 100%;
+    padding : 10px 10px 2.5px 10px;
+    background-color: rgba(255, 243, 109, 0.488);
+}
+nav{
+    margin-top: 4px;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(88, 36, 0);
+    font-size: 20px;
+    padding: 5px 15px;
+    transition: 0.4s;
+    cursor : pointer;
+}
+nav a:hover{
+    color:rgb(255, 94, 0);
+    background-color: rgba(255, 250, 236, 0.811);
+    transition: 0.4s;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 2px 15px -4px rgba(255, 217, 0, 0.712);
+}
+
+
+section.home{
+    height : 760px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgb(255, 233, 124) 100%),url(bg3.png);
+}
+
+.deskhome a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background-color:crimson;
+    color : white;
+    padding : 10px 25px;
+    border-radius: 100px;
+    transition: 0.25s;
+    font-family: cursive;
+    font-size: 20px;
+}
+.deskhome a:hover{
+    box-shadow: 3px 3px 5px -2px rgb(107, 11, 11);
+    transition: 0.5s;
+}
+
+
+
+section.project{
+    height : 800px;
+    text-align: center;
+    width : 100%;
+    margin : auto;
+    padding : 90px 20px;
+    background-color: rgb(255, 231, 135);
+    & img{
+        height : 400px;
+    }
+}
+
+
+
+.isihowto{ 
+    background-color:rgb(74, 44, 3);
+    display : flex;
+    margin: auto;
+    text-align: justify;
+    align-items: flex-start;
+}
+
+.howto img{
+    height : 600px;
+
+}
+.dokmen {
+    margin : 20px;
+}
+
+.proses{
+    
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: system-ui;
+    text-align: left;
+}
+.penjelasan{
+    
+    color: rgb(255, 253, 206);
+    font-size: 25px;
+    font-family:'Arial Narrow';
+    text-align: left;
+}
+
+
+section.profile{
+    height : 800px;
+    text-align
+    : center;
+}
+
+.deskhome{
+    width : 800px;
+    margin-left: 40px;
+    padding-top: 130px;
+
+}
+.name{
+    font-size: 50px;
+    color: rgb(255, 221, 0);
+    text-shadow: 2px 2px 5px rgba(120, 66, 0, 0.604);
+    font-family:Tahoma
+}
+.desk{
+    color:bisque;
+    font-size: 20px;
+}
+
+
+
+.jelasin{
+    color: rgba(86, 41, 2, 0.891);
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.isipro{
+    color :rgb(88, 36, 0);
+    font-size: 24px;
+    font-family:Helvetica;
+
+}
+
+.judul{
+    color:rgb(165, 93, 42);
+    font-size: 30px;
+    font-family:Verdana;
+
+}
+
+.card{
+    background-color: black;
+    padding : 15px;
+    width : 300px;
+    margin : auto;
+    text-align: center;
+}
+
+.imgprofile img{
+    width : 100%;
+}
+
+.medsos{
+    left: 0;
+    bottom: 0;
+    width : 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.medsos a{
+    text-decoration:none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+
+.deskprofile{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-size: 15px;
+    font-family:cursive;
+}
+
+.profile{
+    background-color: rgb(117, 110, 110);
+    padding : 50px 10px 10px 10px
+}
