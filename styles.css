@@ -109,7 +109,7 @@ section.project{
     text-align: center;
     width : 100%;
     margin : auto;
-    padding-top: 20px;
+    padding-top: 53px;
     background-color: rgb(255, 231, 135);
     & img{
         height : 300px;
@@ -139,6 +139,7 @@ section.project{
     text-align: justify;
     align-items: flex-start;
     height: 800px;
+    padding-top: 35px;
 }
 .howto img{
     height : 700px;
